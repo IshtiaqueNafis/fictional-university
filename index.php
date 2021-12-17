@@ -1,1 +1,12 @@
-This is our amazing custom theme.
+<?php
+$cars = array("Volvo", "BMW", "Toyota");
+?>
+
+<?php
+foreach ($cars as $value) {
+	if($value=="Volvo") {
+		echo $value;
+    }
+}
+
+?>
